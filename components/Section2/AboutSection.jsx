@@ -71,8 +71,8 @@ const ContentWrapper = styled.div`
 
   position: relative;
   z-index: 1;
-  max-width: 1298px;
   width: 100%;
+  max-width: 85%;
 
   @media (max-width: 991px) {
     padding: 72px 20px;
@@ -104,7 +104,7 @@ const MainHeading = styled.h1`
   font-weight: 600;
   line-height: 62px;
   letter-spacing: -1.44px;
-  width: 684px;
+  width: 45%;
   margin: 0;
 
   @media (max-width: 991px) {
@@ -126,7 +126,7 @@ const Description = styled.p`
   font-size: 16px;
   font-weight: 500;
   line-height: 29px;
-  width: 557px;
+  width: 50%;
   margin: 0;
 
   @media (max-width: 991px) {
@@ -189,7 +189,7 @@ const RightColumn = styled.div`
 `;
 
 const HeroImage = styled.img`
-  aspect-ratio: 2.11;
+  aspect-ratio: 2.1;
   object-fit: contain;
   object-position: center;
   width: 100%;

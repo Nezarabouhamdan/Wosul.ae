@@ -35,7 +35,7 @@ const SubHeading = styled.h2`
 const MainHeading = styled.h1`
   max-width: 700px;
   width: 100%;
-  font-size: 72px;
+  font-size: 60px;
   color: rgba(1, 2, 5, 1);
   font-weight: 600;
   letter-spacing: -2.16px;

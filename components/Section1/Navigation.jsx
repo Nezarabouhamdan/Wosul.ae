@@ -6,12 +6,10 @@ const NavigationContainer = styled.nav`
   position: relative;
   display: flex;
   width: 100%;
-  padding: 30px 80px;
   align-items: center;
-  gap: 100px;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  max-width: 85%;
   @media (max-width: 991px) {
     padding: 20px;
     gap: 40px;
@@ -30,7 +28,7 @@ const LogoSection = styled.div`
   }
 `;
 
-const Logo = styled.img`
+export const Logo = styled.img`
   width: 90px;
   height: 90px;
   object-fit: contain;
@@ -47,12 +45,7 @@ const MenuList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family:
-    Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
+  font-family: Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 14px;
   color: rgba(2, 4, 7, 1);
   font-weight: 600;
@@ -105,12 +98,7 @@ const ActionSection = styled.div`
 
 const ContactLink = styled.a`
   color: rgba(2, 4, 7, 1);
-  font-family:
-    Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
+  font-family: Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;

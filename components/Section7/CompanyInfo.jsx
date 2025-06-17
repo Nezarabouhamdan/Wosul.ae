@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import styled from "styled-components";
+import { Logo } from "../Section1/Navigation";
 
 const CompanyInfo = () => {
   const socialLinks = [
@@ -28,7 +29,10 @@ const CompanyInfo = () => {
 
   return (
     <CompanySection>
-      <CompanyName>MAC</CompanyName>
+      <Logo
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c954c05982c2da21920002cea05953d42e62435?placeholderIfAbsent=true&apiKey=aa3beaa1347a405eb89ef941921d55f8"
+        alt="Company Logo"
+      />
       <CompanyDescription>
         We offers a comprehensive suite of digital marketing services that cover
         all aspects of our online presence. From SEO and social media marketing
@@ -61,12 +65,7 @@ const CompanySection = styled.div`
 const CompanyName = styled.h3`
   align-self: stretch;
   gap: 12px;
-  font-family:
-    Manrope,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
+  font-family: Manrope, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 37px;
   color: rgba(2, 4, 7, 1);
   font-weight: 700;
@@ -81,12 +80,7 @@ const CompanyName = styled.h3`
 const CompanyDescription = styled.p`
   color: rgba(155, 155, 156, 1);
   font-size: 14px;
-  font-family:
-    Roboto,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 24px;
   align-self: stretch;

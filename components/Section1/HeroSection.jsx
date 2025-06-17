@@ -15,11 +15,12 @@ const HeroContainer = styled.main`
 const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   min-height: 775px;
   width: 100%;
   padding-bottom: 65px;
-  align-items: stretch;
+  align-items: center;
 
   @media (max-width: 991px) {
     max-width: 100%;
@@ -41,7 +42,7 @@ const ContentSection = styled.section`
   align-self: center;
   margin-top: 13px;
   width: 100%;
-  max-width: 1298px;
+  max-width: 85%;
   padding: 0 20px;
 
   @media (max-width: 991px) {

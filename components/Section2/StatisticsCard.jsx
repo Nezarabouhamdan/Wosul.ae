@@ -35,6 +35,8 @@ const StatisticsCard = () => {
 };
 
 const CardContainer = styled.div`
+  margin-bottom: 50px;
+
   border-radius: 30px;
   background-color: rgba(1, 1, 4, 1);
   display: flex;
@@ -42,12 +44,7 @@ const CardContainer = styled.div`
   padding: 40px 19px 40px 40px;
   flex-direction: column;
   align-items: stretch;
-  font-family:
-    Plus Jakarta Sans,
-    -apple-system,
-    Roboto,
-    Helvetica,
-    sans-serif;
+  font-family: Plus Jakarta Sans, -apple-system, Roboto, Helvetica, sans-serif;
 
   @media (max-width: 991px) {
     padding: 20px;
